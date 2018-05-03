@@ -1,0 +1,322 @@
+body {
+	background: #077054;
+	color: #99fa99;
+	font-size: 14px;
+	font-family: 'latoregular';
+	margin: 0;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: none;
+}
+p {
+	line-height: 30px;
+	margin: 0;
+}
+p a {
+	color: #315f52;
+}
+p a:hover {
+	color: #451374;
+}
+
+#header {
+	margin: 0 auto;
+	max-width: 960px;
+}
+#header h1 {
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 0.4;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+#header h1 a {
+	color: #99fa99;
+	text-decoration: none;
+}
+#header h1 a span {
+	color: #93c3b6;
+	display: block;
+	font-family: 'nixie_oneregular';
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-top: 22px;
+}
+#header ul#navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#header ul#navigation li {
+	display: inline;
+	line-height: 30px;
+	position: relative;
+}
+#header ul#navigation li a {
+	color: #b6d8cf;
+	font-size: 18px;
+	padding: 0 46px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul#navigation li a:hover {
+	color: #d3a3ff;
+}
+#header ul#navigation li.current a {
+	color: #99fa99;
+}
+#body {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+}
+/*===============Home===============*/
+#body div#tagline h1 {
+	font-family: "NixieOne";
+	font-size: 100px;
+	color: #21a51e;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 55px;
+	line-height: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body div#tagline hr#line {
+	margin: 0 0 53px 175px;
+	background: #d3a3ff;
+	width: 145px;
+	height: 9px;
+	border: 0;
+}
+#body div#tagline p {
+	font-family: "NixieOne";
+	color: #21a51e;
+	font-size: 100px;
+	font-weight: normal;
+	word-spacing: 20px;
+	line-height: 100px;
+	padding: 43px 0 0;
+}
+#body div#tagline {
+	float: left;
+	margin: 110px 0 0 25px;
+	max-width: 510px;
+}
+#body img.figure {
+	display: block;
+	float: right;
+	margin: 74px 38px 113px 0;
+	max-width: 100%;
+	width: auto;
+}
+/*===============About===============*/
+#body div#content {
+	overflow: hidden;
+	/*margin-left: 40px;*/
+}
+#body h1 {
+	font-weight: normal;
+	font-family: "NixieOne";
+	font-size: 35px;
+	color: #21a51e;
+}
+#body div#content div {
+	overflow: hidden;
+	float: left;
+	width: 500px;
+}
+#body div#content div h3 {
+	font-weight: normal;
+	font-family: 'nixie_oneregular';
+	font-size: 23px;
+	color: #315f52;
+	/*word-spacing: 11px;*/
+	/*line-height: 30px;*/
+	margin: 0;
+	padding: 25px 0 0;
+}
+#body div#content div p {
+	font-weight: bold;
+	font-family: 'nixie_oneregular';
+	font-size: 14px;
+	color: #315f52;
+}
+#body div#content div p a {
+	text-decoration: underline;
+}
+#body div#content div p a:hover {
+	color: #bbc6c7;
+}
+#body div#content img.figure {
+	margin: 25px 38px 46px 0;
+}
+/*===============Classes===============*/
+#body div#content div div.section {
+	padding: 55px 0 0; 
+	width: 430px;
+}
+#body div#content div div.section:first-child {
+	padding: 0;
+}
+#body div#content div div.section span {
+	display: block;
+	line-height: 30px;
+	color: #315f52;
+	font-weight: bold;
+}
+/*===============Contact===============*/
+#body form {
+	color: #315f52;
+	max-width: 460px;
+
+	margin: 1px auto 0;
+}
+#body form h3 {
+	font-family: 'nixie_oneregular';
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 25px 0 0;
+	margin-bottom: 20px;
+}
+#body form label {
+	margin-bottom: 14px;
+}
+#body form label#lastlabel {
+	margin-bottom: 5px;
+}
+#body form label input {
+	background: #d1d3d4;
+	border: 1px solid #b6d8cf;
+	width: 445px;
+	height: 40px;
+	padding-left: 10px;
+}
+#body form label textarea {
+	background: #d1d3d4;
+	border: 1px solid #b6d8cf;
+	width: 450px;
+	height: 250px;
+}
+#body form label span {
+	margin-bottom: 5px;
+	font-family: 'latoregular';
+	font-size: 14px;
+	font-weight: bold;
+}
+#body form label, label span {
+	display: block;
+}
+#body form input#send {
+	background: #077054;
+	color: #5fc37d;
+	float: right;
+	width: 50px;
+	height: 30px;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 0 0 red;
+}
+/*===============Blog===============*/
+#body ul#blog {
+	color: #315f52;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#body ul#blog li {
+	display: block;
+	margin: 0 100px 104px 0;
+	max-width: 753px;
+	max-height: 141px;
+	word-spacing: -1.9px;
+}
+#body ul#blog li img {
+	display: block;
+	float: left;
+	margin: 0 20px 0 0;
+}
+#body ul#blog li h3 {
+	font-family: 'nixie_oneregular';
+	font-size: 23px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+#body ul#blog li span {
+	font-size: 14px;
+	font-family: 'latoregular';
+	margin: 0 0 16px 0;
+	padding: 0;
+}
+#body ul#blog li p {
+	font-size: 14px;
+	font-family: 'latoregular';
+	line-height: 30px;
+}
+/*===============Footer===============*/
+#footer {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 30px 0 60px;
+}
+#footer div {
+	float: left;
+	width: 500px;
+}
+#footer div span {
+	color: #99fa99;
+	display: block;
+	font-size: 26px;
+	line-height: 24px;
+}
+#footer div p {
+	font-size: 12px;
+	color: #b6d8cf;
+	line-height: 30px;
+}
+#footer div.connect {
+	float: right;
+	overflow: hidden;
+	width: auto;
+}
+#footer div.connect a {
+	display: block;
+	float: left;
+}
+#footer div.connect a img {
+	margin-right: 19px;
+}
+#footer div.connect a img.p {
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
